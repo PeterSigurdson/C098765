@@ -17,7 +17,9 @@ namespace C098765
             {
                 Console.WriteLine("Promoted to Level 1");
             }
-            else { Console.WriteLine("Promoted to Level 2");}
+            else {
+                // commit again!
+                Console.WriteLine("Promoted to Level 2");}
         }
 
         public int CalculateRating()
